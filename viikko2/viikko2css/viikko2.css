@@ -1,0 +1,40 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: dimgray;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+li a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    color: snow;
+    text-decoration: none;
+    padding: 10px 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, font-weight 0.3s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    padding: 1em;
+}
+
+li a:hover {
+    background-color: black;
+    font-weight: bold;
+}
